@@ -1,0 +1,108 @@
+/* Container */
+.support-panel {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 12px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Heading */
+.support-panel h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f2937;
+  text-align: center;
+}
+
+/* Table */
+.support-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table Header */
+.support-table thead {
+  background: #e5e7eb;
+}
+.support-table th {
+  padding: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: left;
+  border-bottom: 2px solid #d1d5db;
+}
+
+/* Table Body */
+.support-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/* Zebra rows */
+.support-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s ease;
+}
+.btn-blue {
+  background: #3b82f6;
+  color: white;
+}
+.btn-blue:hover {
+  background: #1e40af;
+}
+.btn-green {
+  background: #10b981;
+  color: white;
+}
+.btn-green:hover {
+  background: #047857;
+}
+
+/* Select (status dropdown) */
+.ticket-status {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Comment input */
+.comment-box {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.comment-box input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+.comment-box input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.2);
+}
