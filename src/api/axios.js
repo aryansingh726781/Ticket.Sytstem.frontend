@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-//   baseURL: "http://localhost:4000/api", // adjust to your backend URL
+  // baseURL: "http://localhost:4000/api", // adjust to your backend URL
   baseURL: "https://ticket-sytstem-backend-3.onrender.com/api", // adjust to your backend URL
   withCredentials: true,
 });
